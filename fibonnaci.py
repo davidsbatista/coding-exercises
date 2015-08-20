@@ -5,7 +5,7 @@ import sys
 __author__ = "David S. Batista"
 __email__ = "dsbatista@inesc-id.pt"
 
-cache = [0] * 1000000
+cache = [0] * 10000
 
 
 def fibonnaci(x):
