@@ -12,6 +12,8 @@ There can be 6 possible triangles: {10, 21, 22}, {21, 100, 101}, {22, 100, 101},
 {100, 101, 200} and {101, 200, 300}
 """
 
+#TODO: hint, what if the array is already sorted
+
 points = set()
 
 
