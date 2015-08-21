@@ -12,6 +12,8 @@ largest sum is 4, −1, 2, 1, with sum 6.
 {2,-1, 3,-5,3} output: 4
 """
 
+#TODO: find the largest subsequence given an array that yields the largest sum.
+
 
 def max_subarray(arr):
     max_so_far = 0
