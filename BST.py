@@ -160,16 +160,25 @@ def lowest_common_ancestor(root, n1, n2):
     p2 = []
     find_path(root, n1, p1)
     find_path(root, n2, p2)
-    print n1, p1
-    print n2, p2
+    print p1
+    print p2
+    if n1 in p2:
+        return n1
+    if n2 in p1:
+        return n2
     x = -1
     y = -1
-    #TODO: check if n1 in p2 or if n2 in p1
-    while x == y and len(p1) > 0 and len(p2) > 0:
-        x = p1.pop(0)
-        y = p2.pop(0)
-        lca = x
-    print lca
+    last_equal = -1
+    while x == y:
+        if len(p1) == 1:
+            return p1[0]
+        elif len(p2) == 1:
+            return p2[0]
+        else:
+            last_equal = x
+            x = p1.pop(0)
+            y = p2.pop(0)
+    return last_equal
 
 
 def main():
@@ -177,8 +186,6 @@ def main():
     root = Node(8)
     for i in arr:
         root.insert(i)
-
-    lowest_common_ancestor(root, 4, 3)
 
     """
     print "\nmin:", min_node(root)
@@ -190,11 +197,8 @@ def main():
             print False
             break
     print "\nis valid BST:", stack
-    """
-
     #is_valid_bst2(root, -1)
 
-    """
     # inorder (for binary trees only): visit left subtree, node, right subtree.
     print "\nInorder Traversal:"
     in_order_tree_walk(root)
@@ -210,8 +214,25 @@ def main():
     print '\n\nBreadth-First Traversal'
     print_bfs(root)
 
-    #node = root.search(x)
+    lca = lowest_common_ancestor(root, 6, 3)
+    print "lca(6,3):", lca
     """
+
+    lca = lowest_common_ancestor(root, 6, 14)
+    print "lca(6,14):", lca
+
+    lca = lowest_common_ancestor(root, 4, 13)
+    print "lca(4,13):", lca
+
+    lca = lowest_common_ancestor(root, 4, 1)
+    print "lca(4,1):", lca
+
+    lca = lowest_common_ancestor(root, 4, 3)
+    print "lca(4,3):", lca
+
+
+    #node = root.search(x)
+
 
 if __name__ == "__main__":
     main()

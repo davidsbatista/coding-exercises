@@ -13,9 +13,11 @@ largest sum is 4, −1, 2, 1, with sum 6.
 """
 
 #TODO: find the largest subsequence given an array that yields the largest sum.
+#TODO: find the largest subsequence of the given array that yields the largest PRODUCT.
+#TODO: Maximum product subset with negative and positive integers
 
 
-def max_subarray(arr):
+def max_sum_subarray(arr):
     max_so_far = 0
     max_ending_here = 0
 
@@ -33,7 +35,7 @@ def max_subarray(arr):
 
 def main():
     x_array = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-    print max_subarray(x_array)
+    print max_sum_subarray(x_array)
 
 if __name__ == "__main__":
     main()
