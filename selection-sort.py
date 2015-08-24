@@ -8,9 +8,9 @@ The algorithm divides the input list into two parts:
     the sublist of items remaining to be sorted that occupy the rest of the list. 
     
     Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. 
-    The algorithm proceeds by 
-        finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, 
-        exchanging it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
+    The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted
+    sublist, exchanging it with the leftmost unsorted element (putting it in sorted order), and moving the sublist
+    boundaries one element to the right.
 """
 
 
