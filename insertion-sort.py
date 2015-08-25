@@ -15,30 +15,6 @@ The algorithm divides the input list into two parts:
 """
 
 
-"""
-def insert(sorted_array, new_value):
-    print "\nnew value", new_value
-    print "array", sorted_array
-    for i in range(len(sorted_array)-1, -1, -1):
-        if new_value > sorted_array[i]:
-            # shift i+1, inclusive, everything to the right, and insert 'new_value'
-            print "sorted", sorted_array[:i+1] + [new_value] + sorted_array[i+1:]
-            return sorted_array[:i+1] + [new_value] + sorted_array[i+1:]
-    if i == 0:
-        # insert value at the begining of the sorted array
-        print "sorted", [new_value] + sorted_array
-        return [new_value] + sorted_array
-
-
-def insertion_sort(arr_n):
-    for i in range(1, len(arr_n)):
-        arr_n = insert(arr_n[:i] + arr_n[i+1:], arr_n[i])
-    return arr_n
-"""
-
-#TODO: https://en.wikipedia.org/wiki/Insertion_sort
-
-
 def insertion_sort(arr_a):
     for i in range(1, len(arr_a)):
         x = arr_a[i]
