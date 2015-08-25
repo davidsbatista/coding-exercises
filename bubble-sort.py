@@ -1,5 +1,6 @@
 __author__ = 'dsbatista'
 
+
 def bubble_sort(arr_n):
     while True:
         swapped = False

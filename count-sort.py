@@ -1,19 +1,5 @@
 __author__ = 'dsbatista'
 
-"""
-The algorithm divides the input list into two parts:
-
-    A function called Insert designed to insert a value into a sorted sequence at the beginning of an array.
-    It operates by beginning at the end of the sequence and shifting each element one place to the right until a
-    suitable position is found for the new element. The function has the side effect of overwriting the value stored
-    immediately after the sorted sequence in the array.
-
-    - To perform an insertion sort, begin at the left-most element of the array and invoke Insert to insert each
-    element encountered into its correct position.
-    - The ordered sequence into which the element is inserted is stored at the beginning of the array in the set of
-    indices already examined. Each insertion overwrites a single value: the value being inserted.
-"""
-
 
 def count_sort(arr_a, k):
     arr_b = [0 for _ in arr_a]
@@ -45,8 +31,7 @@ def count_sort(arr_a, k):
 
 
 def main():
-    #x_array = [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 8, 10]
-    x_array = [3, 6, 4, 1, 3, 4, 1, 4]
+    x_array = [2, 2, 2, 2, 2, 2, 2, 234, 23, 534, 2, 1, 23, 4, 34, 4, 2, 123, 2, 32]
     k = max(x_array)
     print count_sort(x_array, k)
 
