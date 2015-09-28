@@ -22,7 +22,7 @@ def prime_numbers(n):
 
 
 def main():
-    print prime_numbers(50000)
+    print prime_numbers(500)
 
 if __name__ == "__main__":
     main()
