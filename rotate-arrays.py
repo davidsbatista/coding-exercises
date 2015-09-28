@@ -20,9 +20,8 @@ def rotate(arr, d):
 
 
 def is_rotated(arr_a, arr_b):
-
     # check if same size
-
+    pass
 
 
 def main():

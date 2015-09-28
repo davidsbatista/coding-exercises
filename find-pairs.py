@@ -4,13 +4,14 @@
 __author__ = "David S. Batista"
 __email__ = "dsbatista@inesc-id.pt"
 
+"""
+- For a given array count combination of pairs of (x,y) whose sum is N.
+"""
+
 
 def find_pairs(arr_, k):
-
     values = dict()
-
     for x in arr_:
-
         if x in values:
             print x, values[x]
         else:
