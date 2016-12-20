@@ -107,8 +107,7 @@ Strings
 
 [Uppercase all the words in string which have length of N](strings/upper-case-words-with-length-N.py)
 
-[Given a source word, target word and a dictionary, transform the source word to target by changing/adding/removing 1 character at a time,
-while all intermediate words being valid words. Return the transformation chain which has the smallest number of intermediate words.](strings/source-word-to-target-word-path)
+[Given a source word, target word and a dictionary, transform the source word to target by changing/adding/removing 1 character at a time, while all intermediate words being valid words. Return the transformation chain which has the smallest number of intermediate words.](strings/source-word-to-target-word-path)
 
 [Segment a long string into a set of valid words using a dictionary](strings/split-string-based-on-dictionary-words.py)
 
