@@ -20,6 +20,7 @@ Arrays
 
 [Given a sorted array with duplicates and a number, find the range in the form of (startIndex, endIndex) of that number](arrays/find-range-of-duplicates-in-array.py)
 
+[Find the contiguous sub-array in an array which has the largest sum](arrays/find-subarray-largest-sum.py)
 
 Lists
 =====
