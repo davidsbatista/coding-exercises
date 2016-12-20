@@ -2,7 +2,7 @@ Different technical questions that show up at coding interviews and the solution
 
 
 Design Patterns
-===============
+---------------
 
 [Factory Method](design-patterns/factory_method.py)
 
