@@ -1,0 +1,258 @@
+
+http://www.restlessprogrammer.com/2013/09/hacking-coding-interview.html
+
+Design Patterns
+===============
+
+- What design patterns you have used ?
+- Why you have used them?
+
+- What problem do the following design patterns solve?
+
+
+    Factory:
+    =======
+    produce implementations (Apple, Banana, Cherry, etc.) of a particular interface -- say, IFruit. The Factory Method
+    pattern uses inheritance and relies on a subclass to handle the desired object instantiation
+
+
+    AbstractFactory:
+    ================
+    Produce different implementations of a particular Factory interface -- e.g., IFruitFactory. Each of those knows how
+    to create different kinds of fruit. The Abstract Factory pattern, a class delegates the responsibility of object
+    instantiation to another object via composition
+
+
+    - Inversion of Control / Dependency Injection
+    =============================================
+    Using a container defines an object-graph that in runtime creates instances of the needed objects
+
+
+    Facade:
+    ======
+    Used when an easier or simpler interface to an underlying object is desired. Provides a simplified interface to a
+    larger body of code, such as a class library. This pattern hides the complexities of the larger system and provides
+    a simpler interface to the client. E.g., wrap a poorly designed collection of APIs with a single well-designed API.
+
+    - Alternatively:
+
+      Adapter
+      =======
+      Can be used when the wrapper must respect a particular interface and must support polymorphic behavior (i.e.,
+      implementing or inheriting both the interface that is expected and the interface that is pre-existing), allows
+      otherwise incompatible classes to work together by converting the interface of one class into an interface
+      expected by the clients.
+
+
+      Decorator/Wrapper
+      =================
+      A decorator makes it possible to add or alter behavior of an interface at run-time. Allows behavior to be added to
+      an individual object, either statically or dynamically, without affecting the behavior of other objects from the
+      same class.
+
+      The decorator pattern can be used to extend (decorate) the functionality of a certain object statically,
+      or in some cases at run-time, independently of other instances of the same class, provided some groundwork is
+      done at design time. This is achieved by  designing a new Decorator class that wraps the original class. This
+      wrapping could be achieved by the following sequence of steps
+
+
+
+  - TODO:
+    - Composite
+    - Strategy
+    - Builder
+    - Observable
+    - Observer
+    - Modularization
+    - Flyweight
+    - Iterator
+    - State [Machine]
+
+
+Sorting
+=======
+
+    Bubble Sort
+    ===========
+     swaps every two adjacent elements until array is ordered
+
+    Select sort
+    ===========
+     finds minimum element on the remaining part and swaps it with the first element, remaining part is one element
+     shorter, the marker advances one position
+
+    Insertion sort
+    ==============
+     select first unordered element, swap other elements (i.e., leftmost part of the array) to the right, to create
+     position and shift the unsorted element; advance the marker to the right one element.
+
+
+    Merge sort
+    ==========
+    O(n log n)
+
+
+    Quick sort
+    ==========
+    O(n log n)
+
+    Counting Sort:
+    Radix Sort:
+    Bucket Sort:
+    Heap Sort
+    Bogo and Quantum Sort (=
+
+
+Searching:
+==========
+  Binary Search
+  Depth First Search
+  Breadth First Search
+
+Greedy algorithms
+Binary Searches
+Graph Algorithms
+Backtracking algorithms
+HashMaps
+HashSets
+Lists
+Stacks
+
+
+Done
+====
+- Find out at least one 3 elements array in a given integer array. The 3 elements have to be able to form a triangle.
+    http://www.geeksforgeeks.org/find-number-of-triangles-possible/
+    http://stackoverflow.com/questions/8110538/total-number-of-possible-triangles-from-n-numbers
+
+- Give an array that has only the values 1, 2 or 3, sort the array in place
+    - Solution in O(2n) only
+    - https://en.wikipedia.org/wiki/Dutch_national_flag_problem
+
+
+Coding
+======
+1) Write code to reverse a linked list, if you able to do it using loops, try to solve with recursion.(solution)
+2) How to rotate an array by K? (solution)
+3) Given an array which contains N-2 numbers in unsorted order, find two missing numbers? (solution)
+4) Given an array which has a number in the majority (a number appears more than 50% in the array), find that number? (solution)
+5) How to detect a loop in singly linked list? If you are able to detect loop then find the size of linked list? (solution)
+6) Given N steps to climb to reach a floor, a person can take 1 or 2 step at a time to climb. Find the number of ways to reach nth step? (discussion)
+
+8) How to merge two sorted linked list, write a program in your favorite programming language e.g. Java, C++, or Python.
+9) Write a Program which checks if two Strings are Anagram or not? (solution)
+10) How to print all permutations of a given String using recursion? (solution)
+11) How to check if a binary tree is balanced or not? (solution)
+
+13) How to find all pairs of elements in an integer array, whose sum is equal to a given number? (solution)
+
+15) Write a function to print nth number in Fibonacci series? (answer)
+
+18) Write code to implement an LRU cache? (solution)
+19) Write a function to remove duplicate characters from String? (solution)
+20) How to find the 3rd element from end, in a singly linked, in a single pass? (solution)
+
+- How to build a dictionary in such a way that it'd be efficient to search for all valid words which are permutations of a given string?
+
+- Given an array of numbers, replace each number with the product of all the numbers divided by the number at that index without using the division operator
+
+- Given an input string and a target string, find the minimum substring of the input string that contains all of the characters in the target string
+
+- Given a target and a sorted array, find the element that is strictly larger than the target. i.e. {a,c,d,e} b output: c
+- Given intervals find overlap and return the length.
+- Find coverage of a bunch of intervals.... like given [1,4),[-2,3),[9,10) return 7
+
+- Find the median of two sorted int arrays?
+- Generating a sorted vector from two sorted vectors.
+
+- Knuth–Morris–Pratt algorithm
+
+- Write a program that takes an integer and prints out all ways to multiply smaller integers that equal the original number, without repeating sets of factors. In other words, if your output contains 4 * 3, you should not print out 3 * 4 again as that would be a repeating set. Note that this is not asking for prime factorization only. Also, you can assume that the input integers are reasonable in size; correctness is more important than efficiency. ;PrintFactors(12) 12 * 1;6 * 2;4 * 3;3 * 2 * 2
+
+- Given a maximum line length, left right justify a long string. (make spaces evenly distributed between adjacent words)
+- Find all collinear points in a given set
+- Find a number in a matrix which is sorted by row and column
+
+- Given an array of integers A[1..n], make a new array B[1..n] where B[i] is the product of everything in A excluding A[i].O(n) solution without division.
+
+
+- Code an RPN calculator with only (+, -, x, /) operations where each operation only takes in two integers as input.
+- Implement an algorithm to convert an integer into a roman numeral string and vice versa.
+- Write a function to determine if a string is a number without using any built-in function.
+
+- Write a function to find the power of a^b; (they asked me to improve it (time complexity). There's a logN solution for this problem. Look for special if b<0. write it in O(Log n) time.
+
+- Given a large document and a short pattern consisting of a few words (eg. W1 W2 W3), find the shortest string that has all the words in any order (for eg. W2 foo bar dog W1 cat W3 -- is a valid pattern)
+
+
+
+
+Trees
+=====
+- Print the coordinates of every node in a binary tree, where root is 0,0
+- serialize and deserialize a binary tree
+- Find whether a given binary tree is image of the other one
+- Find the distance between 2 nodes in a BST and a normal binary tree
+- Given a binary tree which is a sum tree (child nodes add to parent), write an algorithm to determine whether the tree is a valid sum tree
+- Given a tree, verify that it contains a subtree.
+- HARD: Find the max distance between 2 nodes in a BST.
+- HARD: Construct a BST given the pre-order and in-order traversal Strings
+
+
+Stacks, Queues, and Heaps
+=========================
+
+- Find median of an infinite stream of integers in O(1) time.
+- Sorted infinite character stream.
+
+- Implement a O(1) min function for Stack
+- Find out k most frequent numbers from incoming stream of numbers one the fly.
+- Write a function that sorts a stack (bonus: sort the stack in place without extra memory)
+- Implement a binary min heap. Turn it into a binary max heap
+- HARD: Implement a queue using 2 stacks
+
+
+Linked Lists
+============
+- Implement a linked list (with insert and delete functions)
+- Find the Nth element in a linked list
+- Remove the Nth element of a linked list
+- Check if a linked list has cycles
+- Given a circular linked list, find the node at the beginning of the loop. Example: A-->B-->C --> D-->E -->C, C is the node that begins the loop
+- Reverse a linked list iteratively and recursively
+
+- Program an iterator for a Linked List which may include nodes which are nested within other nodes. i.e. (1)->(2)->(3(4))->((5)(6). Iterator returns 1->2->3->4->5->6
+
+
+Graph
+=====
+- Graph Search algorithms (at least one!)
+- The Bellman-Ford algorithm (http://hetland.org/coding/python/bellman_ford.py)
+- print a list of numbers in a row/column format vertically
+- Consider an X x Y array of 1's and 0s. The X axis   represents "influences" meaning that X influences Y. So, for example, if $array[3,7] is 1 that means that 3 influences 7. An "influencer" is someone who influences every other person, but is not influenced by any other member. Given such an array, write a function to determine whether or not an "influencer" exists in the array.
+- Given a grid of size m by n, write an algorithm that computes all paths from 0,0 to m,n such that you can always step horizontally or vertically but cannot reverse.
+
+- was given a 2D array of people who follow one another, determine who's an influencer(followed by everyone, follows no one). Example: If A[i][j] is true, then person i follows person j. In the 2D array, find the column value 'k' which has all 1's, and for row 'k' it should all be zeros. I can think of a nested for loop traversing the array. There may be a better solution using another data structure etc.
+- determine if a graph is bipartite, tip: if you can two color a graph then it is bipartite
+
+- return n closest points on a plane
+- Find the nearest K point given a set of N point.
+- n closest points to a given point? (for example, the origin? OR 2. N closest to each other? That would mean cluster of points with N closest to each other.
+- Climbing Stairs problem
+
+
+
+Misc.
+=====
+- You have a potentially very-large set of documents, which are potentially very-large, and contain text.
+-For searching these documents, they've been pre-processed into a (very-large) table mapping words to the set of documents that contain each word.
+
+E.g. (word) : (documents (referenced by ID) containing that word)
+Apple: 1, 4, 5, 6, 32
+Banana: 5, 6, 7, 9, 32
+Cantaloupe: 1, 2, 6 ...
+
+Clients will pass in a set of words (e.g. {apple, cantaloupe}), and want the set of document IDs that contain all the words.
+(e.g. {apple, cantaloupe} -> {1, 6})
+
+Design a distributed system to implement this, bearing in mind that the number of documents, the number of words, and the number of document-IDs-per-word are potentially really, really big.
