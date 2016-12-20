@@ -1,8 +1,13 @@
 Different technical questions that show up at coding interviews and the solutions for some of them in python.
 
-Lists with more questions:
+Resources:
 
-[reddit.com/r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/)
+[reddit.com cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/)
+
+[Complexities](http://bigocheatsheet.com/)
+
+[Complexities PDF](http://bigocheatsheet.com/pdf/big-o-cheatsheet.pdf)
+
 
 
 Design Patterns
