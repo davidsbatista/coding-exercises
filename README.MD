@@ -1,3 +1,6 @@
+Technical questions that show up at coding interviews and the solutions for some of them in python.
+
+
 Design Patterns
 ===============
 
