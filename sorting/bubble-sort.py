@@ -17,7 +17,7 @@ def bubble_sort(arr_n):
 
 
 def main():
-    x_array = [2, 2, 2, 2, 2, 2, 2, 234, 23, 534, 2, 1, 23, 4, 34, 4, 2, 123, 2, 32]
+    x_array = [2, 2, 2, 2, 2, 2, 2, 234, 23, 534, 2, 1, 23, 4, 34, 4, 123, 32]
     print bubble_sort(x_array)
 
 if __name__ == "__main__":

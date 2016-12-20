@@ -1,18 +1,20 @@
 __author__ = 'dsbatista'
 
 """
-Testing a sequence of characters to determine if it is a palindrome (i.e., reads the same forward and backward,
-like "radar") can be accomplished easily with one stack and one queue.
+Testing a sequence of characters to determine if it is a palindrome
+(i.e., reads the same forward and backward, like "radar") can be accomplished
+easily with one stack and one queue.
 
-The solution is to enter the sequence of characters into both data structures, then remove letters from each data
-structure one at a time and compare them, making sure that the letters match.
+The solution is to enter the sequence of characters into both data structures,
+then remove letters from each data structure one at a time and compare them,
+making sure that the letters match.
 """
 
 
 def is_palindrom(word):
 
-    my_stack = []  #(FIFO)
-    my_queue = []  #(LIFO)
+    my_stack = []  # (FIFO)
+    my_queue = []  # (LIFO)
 
     for w in word:
         my_stack.append(w)

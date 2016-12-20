@@ -1,7 +1,9 @@
 __author__ = 'dsbatista'
 
 """
-- Given a sorted array with duplicates and a number, find the range in the form of (startIndex, endIndex) of that number.
+- Given a sorted array with duplicates and a number, find the range in the
+form of (startIndex, endIndex) of that number.
+
 For example:
 
 find_range({0 2 3 3 3 10 10}, 3) should return (2,4).
@@ -11,7 +13,7 @@ The array and the number of duplicates can be large.
 """
 
 
-#TODO: use a binary search tree
+# TODO: use a binary search tree
 def find_number(arr, n):
     start = -1
     end = -1
@@ -29,4 +31,4 @@ def find_number(arr, n):
             start = x
             found = True
         
-    return start,end
+    return start, end

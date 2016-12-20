@@ -6,7 +6,7 @@ __email__ = "dsbatista@inesc-id.pt"
 
 """
 - Generate a list of all permutation of a string
- """
+"""
 
 
 def permute(s):
@@ -17,12 +17,10 @@ def permute(s):
         for i, c in enumerate(s):
             for perm in permute(s[:i] + s[i+1:]):
                 res += [c + perm]
-
     return res
 
 
 def main():
-    #TODO: all possible with the alphabet
     s = "ABC"
     for x in (enumerate(s)):
         print x

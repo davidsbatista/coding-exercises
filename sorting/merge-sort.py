@@ -16,18 +16,19 @@ def merge(left, right):
     return result
 
 
-def mergesort(my_list):
+def merge_sort(my_list):
     if len(my_list) < 2:
         return my_list
     middle = len(my_list) / 2
-    left = mergesort(my_list[:middle])
-    right = mergesort(my_list[middle:])
+    left = merge_sort(my_list[:middle])
+    right = merge_sort(my_list[middle:])
     return merge(left, right)
 
 
 def main():
-    x_array = [2, 3, 22, 27, 21, 20, 28, 234, 23, 534, 2, 1, 23, 4, 34, 4, 2, 123, 2, 32]
-    print mergesort(x_array)
+    x_array = [2, 3, 22, 27, 21, 20, 28, 234, 23, 534, 2, 1, 23, 4, 34, 4, 2,
+               123, 2, 32]
+    print merge_sort(x_array)
 
 
 if __name__ == "__main__":

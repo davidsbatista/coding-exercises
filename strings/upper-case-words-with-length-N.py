@@ -14,6 +14,7 @@ def uppercase(s):
             new_string += ' '+x
     return new_string
 
+
 def main():
     s = "ist isto eh uma palavra sim"
     print uppercase(s)
