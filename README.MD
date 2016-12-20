@@ -10,19 +10,19 @@ Design Patterns
 
 
 Graphs
-======
+------
 
 Dijkstra Shortest Path
 
 
 Heap, Stack, Queues
-===================
+-------------------
 
 Find the minimum element in a stack in O(1) time
 
 
 Arrays
-======
+------
 
 [Find the most frequent integer](arrays/find-most-frequent-integer.py)
 
@@ -36,7 +36,7 @@ Arrays
 
 
 Lists
-=====
+-----
 
 [Singly Linked List Implementation](lists/singly-linked-list.py)
 
@@ -44,26 +44,26 @@ Lists
 
 
 Miscellaneous
-=============
+-------------
 
 
 
 
 Recursion, Dynamic Programming, Memoization
-===========================================
+-------------------------------------------
 [Fibonnaci Sequence](recursion-dynamic-memoization/fibonnaci.py)
 
 
 
 Sets
-====
+----
 
 [Compute the intersection of two sets](sets/intersection-two-sets.py)
 
 
 
 Sorting
-=======
+-------
 
 [Buuble Sort](sorting/bubble-sort.py)
 
@@ -89,7 +89,7 @@ Quantum Sort
 
 
 Strings
-=======
+-------
 
 [Given two strings, determine if they are isomorphic](strings/check-if-words-are-isomorphic.py)
 
@@ -117,7 +117,7 @@ while all intermediate words being valid words. Return the transformation chain 
 
 
 Trees
-=====
+-----
 
 [Binary Search Tree Implementation](trees/binary-search-tree.py)
 
