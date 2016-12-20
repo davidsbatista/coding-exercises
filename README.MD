@@ -1,8 +1,8 @@
 Different technical questions that show up at coding interviews and the solutions for some of them in python.
 
-A good list of more questions:
+Lists with more questions:
 
-https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/
+[reddit.com/r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/)
 
 
 Design Patterns
