@@ -1,4 +1,5 @@
-Different technical questions that show up at coding interviews and the solutions for some of them in python.
+# programming-exercises
+A repository of coding interview questions and their solutions. This repository contains different technical questions that show up at coding interviews and the solutions for some of them in python.
 
 Resources:
 
