@@ -63,11 +63,9 @@ Remove the Nth element of a linked list
 
 Check if a linked list has cycles
 
-Given a circular linked list, find the node at the beginning of the loop
-Example: A-->B-->C --> D-->E -->C, C is the node that begins the loop
+Given a circular linked list, find the node at the beginning of the loop. Example: A-->B-->C-->D-->E-->C, C is the node that begins the loop
 
-Writer an iterator for a linked list which may include nodes which are nested within other nodes. 
-(e.g. (1)->(2)->(3(4))->((5)(6). Iterator returns 1->2->3->4->5->6)
+Writer an iterator for a linked list which may include nodes which are nested within other nodes. Example, given the list: (1)->(2)->(3(4))->((5)(6), the iterator returns 1->2->3->4->5->6
 
 
 
