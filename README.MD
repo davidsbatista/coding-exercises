@@ -51,6 +51,26 @@ Lists
 
 [Given a nested list of integers, return the sum of all integers in the list weighted by their depth](lists/weighted-sum-nested-list.py)
 
+Reverse a linked list iteratively and recursively
+
+Merge two sorted linked list
+
+How to find the 3rd element from end, in a singly linked, in a single pass?
+
+Find the Nth element in a linked list
+
+Remove the Nth element of a linked list
+
+Check if a linked list has cycles
+
+Given a circular linked list, find the node at the beginning of the loop
+Example: A-->B-->C --> D-->E -->C, C is the node that begins the loop
+
+Writer an iterator for a linked list which may include nodes which are nested within other nodes. 
+(e.g. (1)->(2)->(3(4))->((5)(6). Iterator returns 1->2->3->4->5->6)
+
+
+
 
 Miscellaneous
 -------------
@@ -120,8 +140,9 @@ Strings
 
 [Segment a long string into a set of valid words using a dictionary](strings/split-string-based-on-dictionary-words.py)
 
+Write a function to remove duplicate characters from string
 
-
+Knuth–Morris–Pratt algorithm
 
 
 Trees
