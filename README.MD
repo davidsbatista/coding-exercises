@@ -149,4 +149,4 @@ Trees
 
 [Binary Search Tree Implementation](trees/binary-search-tree.py)
 
-[Given a tree string expression in balanced parenthesis print the three by levels](trees/tree-string-expression-balanced-parenthesis)
+[Given a tree string expression in balanced parenthesis print the three by levels](trees/tree-string-expression-balanced-parenthesis.py)
