@@ -70,6 +70,7 @@ Given a circular linked list, find the node at the beginning of the loop. Exampl
 
 Writer an iterator for a linked list which may include nodes which are nested within other nodes. Example, given the list: (1)->(2)->(3(4))->((5)(6), the iterator returns 1->2->3->4->5->6
 
+Implement the addition of two numbers, where each one of them is represented as digits of a linked list. The result should also be written in the form of digits of a linked list. 
 
 
 
