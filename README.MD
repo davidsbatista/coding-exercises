@@ -30,6 +30,8 @@ Heap, Stack, Queues
 
 Find the minimum element in a stack in O(1) time
 
+Implement a circular queue using array
+
 
 Arrays
 ------
