@@ -1,4 +1,5 @@
-Different technical questions that show up at coding interviews and the solutions for some of them in python.
+# programming-exercises
+A repository of coding interview questions and their solutions. This repository contains different technical questions that show up at coding interviews and the solutions for some of them in python.
 
 Resources:
 
@@ -29,6 +30,8 @@ Heap, Stack, Queues
 
 Find the minimum element in a stack in O(1) time
 
+Implement a circular queue using array
+
 
 Arrays
 ------
@@ -50,6 +53,25 @@ Lists
 [Singly Linked List Implementation](lists/singly-linked-list.py)
 
 [Given a nested list of integers, return the sum of all integers in the list weighted by their depth](lists/weighted-sum-nested-list.py)
+
+Reverse a linked list iteratively and recursively
+
+Merge two sorted linked list
+
+How to find the 3rd element from end, in a singly linked, in a single pass?
+
+Find the Nth element in a linked list
+
+Remove the Nth element of a linked list
+
+Check if a linked list has cycles
+
+Given a circular linked list, find the node at the beginning of the loop. Example: A-->B-->C-->D-->E-->C, C is the node that begins the loop
+
+Writer an iterator for a linked list which may include nodes which are nested within other nodes. Example, given the list: (1)->(2)->(3(4))->((5)(6), the iterator returns 1->2->3->4->5->6
+
+Implement the addition of two numbers, where each one of them is represented as digits of a linked list. The result should also be written in the form of digits of a linked list. 
+
 
 
 Miscellaneous
@@ -120,8 +142,9 @@ Strings
 
 [Segment a long string into a set of valid words using a dictionary](strings/split-string-based-on-dictionary-words.py)
 
+Write a function to remove duplicate characters from string
 
-
+Knuth–Morris–Pratt algorithm
 
 
 Trees
@@ -129,4 +152,4 @@ Trees
 
 [Binary Search Tree Implementation](trees/binary-search-tree.py)
 
-[Given a tree string expression in balanced parenthesis print the three by levels](trees/tree-string-expression-balanced-parenthesis)
+[Given a tree string expression in balanced parenthesis print the three by levels](trees/tree-string-expression-balanced-parenthesis.py)

@@ -132,14 +132,12 @@ Done
 
 Coding
 ======
-1) Write code to reverse a linked list, if you able to do it using loops, try to solve with recursion.(solution)
-2) How to rotate an array by K? (solution)
 3) Given an array which contains N-2 numbers in unsorted order, find two missing numbers? (solution)
 4) Given an array which has a number in the majority (a number appears more than 50% in the array), find that number? (solution)
+
 5) How to detect a loop in singly linked list? If you are able to detect loop then find the size of linked list? (solution)
 6) Given N steps to climb to reach a floor, a person can take 1 or 2 step at a time to climb. Find the number of ways to reach nth step? (discussion)
 
-8) How to merge two sorted linked list, write a program in your favorite programming language e.g. Java, C++, or Python.
 9) Write a Program which checks if two Strings are Anagram or not? (solution)
 10) How to print all permutations of a given String using recursion? (solution)
 11) How to check if a binary tree is balanced or not? (solution)
@@ -149,8 +147,8 @@ Coding
 15) Write a function to print nth number in Fibonacci series? (answer)
 
 18) Write code to implement an LRU cache? (solution)
-19) Write a function to remove duplicate characters from String? (solution)
-20) How to find the 3rd element from end, in a singly linked, in a single pass? (solution)
+
+
 
 - How to build a dictionary in such a way that it'd be efficient to search for all valid words which are permutations of a given string?
 
@@ -165,7 +163,6 @@ Coding
 - Find the median of two sorted int arrays?
 - Generating a sorted vector from two sorted vectors.
 
-- Knuth–Morris–Pratt algorithm
 
 - Write a program that takes an integer and prints out all ways to multiply smaller integers that equal the original number, without repeating sets of factors. In other words, if your output contains 4 * 3, you should not print out 3 * 4 again as that would be a repeating set. Note that this is not asking for prime factorization only. Also, you can assume that the input integers are reasonable in size; correctness is more important than efficiency. ;PrintFactors(12) 12 * 1;6 * 2;4 * 3;3 * 2 * 2
 
@@ -210,18 +207,6 @@ Stacks, Queues, and Heaps
 - Write a function that sorts a stack (bonus: sort the stack in place without extra memory)
 - Implement a binary min heap. Turn it into a binary max heap
 - HARD: Implement a queue using 2 stacks
-
-
-Linked Lists
-============
-- Implement a linked list (with insert and delete functions)
-- Find the Nth element in a linked list
-- Remove the Nth element of a linked list
-- Check if a linked list has cycles
-- Given a circular linked list, find the node at the beginning of the loop. Example: A-->B-->C --> D-->E -->C, C is the node that begins the loop
-- Reverse a linked list iteratively and recursively
-
-- Program an iterator for a Linked List which may include nodes which are nested within other nodes. i.e. (1)->(2)->(3(4))->((5)(6). Iterator returns 1->2->3->4->5->6
 
 
 Graph
